@@ -38,7 +38,7 @@ export default function CardiffHero() {
               </div>
               <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <Users className="w-5 h-5 text-primary" />
-                <span>Target: 100 Believers</span>
+                <span>Target: 100 believers reaching countless souls</span>
               </div>
             </div>
             <div className="bg-muted/30 rounded-[var(--radius)] p-6 border border-border/40">
