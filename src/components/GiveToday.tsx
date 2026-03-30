@@ -25,7 +25,7 @@ interface GiveTodayProps {
 const GiveToday = ({ helpImpact, communityStats, pageHero }: GiveTodayProps) => {
   const [amount, setAmount] = useState<number | string>(50);
   const [currency, setCurrency] = useState('GBP');
-  const [frequency, setFrequency] = useState<Frequency>('monthly');
+  const [frequency, setFrequency] = useState<Frequency>('once');
   const [isDedicated, setIsDedicated] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
