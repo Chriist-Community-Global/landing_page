@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -67,23 +66,19 @@ export default function EventMediaGallery({
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {items.map((item) => (
-              <div
-                key={item.pathname}
-                className="min-w-0 flex-[0_0_88%] sm:flex-[0_0_75%] lg:flex-[0_0_62%] px-2 md:px-4"
-              >
-                <div className="relative aspect-[4/3] sm:aspect-[16/9] overflow-hidden rounded-[var(--radius)] bg-muted">
+              <div key={item.pathname} className="flex-[0_0_auto] px-2 md:px-4">
+                <div className="relative h-[320px] sm:h-[420px] lg:h-[520px] overflow-hidden rounded-[var(--radius)]">
                   {item.type === "image" ? (
-                    <Image
+                    <img
                       src={item.src}
                       alt={item.alt}
-                      fill
-                      sizes="(min-width: 1024px) 62vw, (min-width: 640px) 75vw, 88vw"
-                      className="object-cover"
+                      className="h-full w-auto max-w-[85vw] object-contain"
+                      loading="lazy"
                     />
                   ) : (
                     <>
                       <video
-                        className="h-full w-full object-cover"
+                        className="h-full w-auto max-w-[85vw]"
                         controls
                         preload="metadata"
                         poster={item.poster}
