@@ -14,18 +14,6 @@ const defaultEventsConfig = {
   ctaUrl: "/what-we-do/events-outreaches",
   events: [
     {
-      id: '1',
-      title: 'Sunday Worship',
-      description: 'Weekly worship service',
-      date: 'Every Sunday',
-      time: '10:00 AM',
-      location: 'Main Sanctuary',
-      image: '/worship-conference.jpeg',
-      category: 'Worship',
-      attendees: 200,
-      registrationUrl: '/contact'
-    },
-    {
       id: '2',
       title: 'Community Outreach',
       description: 'Serve the community',
