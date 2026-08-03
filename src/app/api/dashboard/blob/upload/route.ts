@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { put } from '@vercel/blob';
 
-const allowedFolders = new Set(['BigChurch', '10CFC']);
+const allowedFolders = new Set(['BigChurch', '10CFC', '100BelieversToCardiff']);
 
 function isAuthenticated(request: NextRequest): boolean {
   const sessionToken = request.cookies.get('dashboard-session')?.value;

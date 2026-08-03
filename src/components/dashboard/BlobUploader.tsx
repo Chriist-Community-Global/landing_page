@@ -32,6 +32,7 @@ const getDisplayName = (pathname: string) => pathname.split('/').pop() || pathna
 const folderOptions = [
   { value: 'BigChurch', label: 'Big Church Conference' },
   { value: '10CFC', label: '10 Welsh Cities for Christ' },
+  { value: '100BelieversToCardiff', label: '100 Believers to Cardiff' },
 ];
 
 const isUnsupported = (file: File) => {

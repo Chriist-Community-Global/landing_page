@@ -29,11 +29,12 @@ export const metadata: Metadata = {
 };
 
 export default async function EventsAndOutreachesPage() {
-    const [pageHero, contentfulEvents, bigChurchMedia, tenCfcMedia] = await Promise.all([
+    const [pageHero, contentfulEvents, bigChurchMedia, tenCfcMedia, cardiffMedia] = await Promise.all([
         getPageHero('events-outreaches'),
         getUpcomingEvents(),
         getEventMedia('BigChurch'),
-        getEventMedia('10CFC')
+        getEventMedia('10CFC'),
+        getEventMedia('100BelieversToCardiff')
     ]);
 
     // Use Contentful hero data if available, otherwise fall back to hardcoded config
@@ -99,6 +100,11 @@ export default async function EventsAndOutreachesPage() {
                 title="10 Welsh Cities for Christ Gallery"
                 subtitle="Every image and video currently in the 10CFC folder."
                 items={tenCfcMedia}
+            />
+            <EventMediaGallery
+                title="100 Believers to Cardiff Gallery"
+                subtitle="Photos and videos from the Cardiff outreach."
+                items={cardiffMedia}
             />
         </main>
     );

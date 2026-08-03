@@ -3,6 +3,10 @@ import CardiffHero from './components/CardiffHero';
 import CardiffInfo from './components/CardiffInfo';
 import CardiffRegistration from './components/CardiffRegistration';
 import NewsletterSection from '@/components/NewsletterSection';
+import EventMediaGallery from '@/components/EventMediaGallery';
+import { getEventMedia } from '@/lib/event-media';
+
+export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
     title: '100 Believers to Cardiff - Easter Outreach 2026 | Christ Community',
@@ -25,11 +29,18 @@ export const metadata: Metadata = {
     },
 };
 
-export default function CardiffOutreachPage() {
+export default async function CardiffOutreachPage() {
+    const cardiffMedia = await getEventMedia('100BelieversToCardiff');
+
     return (
         <main>
             <CardiffHero />
             <CardiffInfo />
+            <EventMediaGallery
+                title="100 Believers to Cardiff Gallery"
+                subtitle="Photos and videos from the Cardiff outreach."
+                items={cardiffMedia}
+            />
             <div id="registration-section" className="scroll-mt-20">
                 <CardiffRegistration />
             </div>
