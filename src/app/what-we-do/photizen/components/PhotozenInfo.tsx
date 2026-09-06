@@ -65,9 +65,9 @@ export default function PhotozenInfo() {
                 View 2025 Conference Gallery
               </a>
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-6">
+            {/* <p className="text-muted-foreground leading-relaxed mb-6">
               This year we have witnessed the success of that objective, seeing participating churches and believers collaborate in different events over the course of this year. For us it is a great privilege to be a part of the work God is doing among our Churches in South Wales, and we are happy to collaborate with Christian organisations and believers who share the same heart and burden.
-            </p>
+            </p> */}
             <p className="text-muted-foreground leading-relaxed mb-6">
               The theme for this year&apos;s conference is United in Mission: Different ways, one Purpose. We want to explore the different ways different Churches and Christian organisations carry out mission work within communities and to see how Christians can further learn from each other&apos;s work, collaborate, and support the growth of missions in South Wales.
             </p>
