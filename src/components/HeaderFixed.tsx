@@ -78,7 +78,7 @@ const defaultHeaderConfig: HeaderConfig = {
           href: "/what-we-do/photizen",
           label: "Big Church Conference",
           icon: Users,
-          description: "View past conference (November 2025).",
+          description: "Big Church Conference — November 2026. Register now.",
         },
         {
           href: "/what-we-do/10-cities-for-christ",

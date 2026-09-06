@@ -77,16 +77,16 @@ export default function EventList({ events, featuredMedia }: EventListProps) {
             <div className="grid md:grid-cols-2 gap-6 p-8">
               <div className="flex flex-col justify-center">
                 <Badge className="bg-background/80 text-foreground border border-border/40 w-fit mb-4">
-                  Conference Highlights
+                  Upcoming Conference
                 </Badge>
                 <h3 className="text-3xl font-bold text-foreground mb-3">
                   The Big Church Conference
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  A gathering of believers across South Wales. Explore photos and videos from worship, teaching, and fellowship.
+                  Join us for The Big Church Conference Swansea 2026 on Saturday 28th November. Register now and explore highlights from the 2025 conference.
                 </p>
                 <Button asChild variant="outline" className="w-fit">
-                  <Link href="/what-we-do/photizen">View Gallery</Link>
+                  <Link href="/what-we-do/photizen">Learn More & Register</Link>
                 </Button>
               </div>
               <div className="relative h-64 md:h-auto rounded-[var(--radius)] overflow-hidden">

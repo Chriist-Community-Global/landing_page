@@ -9,34 +9,31 @@ export default function PhotozenRegistration() {
       <div className="section-inner">
         <div className="text-center stack-lg mb-12">
           <div className="stack">
-            <p className="eyebrow">Conference</p>
-            <h2 className="section-title">Event Concluded</h2>
+            <p className="eyebrow">Registration</p>
+            <h2 className="section-title">Register for The Big Church Conference Swansea 2026</h2>
           </div>
           <p className="section-lead max-w-3xl mx-auto">
-            Thank you to everyone who joined us at The Big Church Conference Swansea on November 15th, 2025.
-            Stay connected for future events and gatherings.
+            Join us on Saturday 28th November 2026, 4pm-7pm at Waterfront Church, Langdon Road Swansea. SA1 8QY.
+            Complete the form below to register your attendance.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <Card className="bg-card border border-border/40 rounded-[var(--radius)] shadow-sm overflow-hidden">
             <CardContent className="p-0">
-              {/* Past Event Message */}
-              <div className="bg-muted/30 p-8 lg:p-12 text-center">
-                <div className="max-w-2xl mx-auto">
-                  <h3 className="text-2xl font-semibold text-foreground mb-4">
-                    This Event Has Ended
-                  </h3>
-                  <p className="text-muted-foreground mb-6">
-                    We hope you were able to join us for this powerful gathering. Check out our upcoming events 
-                    to stay connected with the Christ Community.
-                  </p>
-                  <a 
-                    href="/what-we-do/events-outreaches"
-                    className="inline-block bg-primary text-primary-foreground px-8 py-3 text-lg font-semibold rounded-[var(--radius)]"
+              {/* Google Form Registration */}
+              <div className="bg-muted/30 p-4 sm:p-8 lg:p-12">
+                <div className="w-full flex justify-center">
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe4IPfivT22wa9g4yahoE-rwr_mDNrdSVEzV8KbPp6wkzQj0A/viewform?embedded=true"
+                    title="Big Church Conference Swansea 2026 registration form"
+                    width="640"
+                    height="1151"
+                    className="w-full max-w-[640px] min-h-[1151px] border-0"
+                    loading="lazy"
                   >
-                    View Upcoming Events
-                  </a>
+                    Loading…
+                  </iframe>
                 </div>
               </div>
 
