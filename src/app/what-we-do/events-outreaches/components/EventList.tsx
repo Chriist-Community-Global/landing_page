@@ -83,7 +83,7 @@ export default function EventList({ events, featuredMedia }: EventListProps) {
                   The Big Church Conference
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  Join us for The Big Church Conference Swansea 2026 on Saturday 28th November. Register now and explore highlights from the 2025 conference.
+                  Join us for The Big Church Conference South Wales 2026 on Saturday 28th November. Register now and explore highlights from the 2025 conference.
                 </p>
                 <Button asChild variant="outline" className="w-fit">
                   <Link href="/what-we-do/photizen">Learn More & Register</Link>

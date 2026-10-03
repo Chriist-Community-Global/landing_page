@@ -10,8 +10,8 @@ import { getEventMedia } from '@/lib/event-media';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-    title: 'The Big Church Conference Swansea 2026 | Christ Community',
-    description: 'Register for The Big Church Conference Swansea 2026 — Saturday 28th November, 4pm-7pm at Waterfront Church. United in Mission: Different ways, one Purpose. View highlights from the 2025 conference.',
+    title: 'The Big Church Conference South Wales 2026 | Christ Community',
+    description: 'Register for The Big Church Conference South Wales 2026 — Saturday 28th November, 4pm-7pm at Waterfront Church. United in Mission: Different ways, one Purpose. View highlights from the 2025 conference.',
     keywords: 'big church conference, swansea, 2026, register, interdenominational, christian conference, south wales, church unity, gospel, united in mission',
 };
 

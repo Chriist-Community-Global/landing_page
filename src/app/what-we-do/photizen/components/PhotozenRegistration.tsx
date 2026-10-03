@@ -10,10 +10,10 @@ export default function PhotozenRegistration() {
         <div className="text-center stack-lg mb-12">
           <div className="stack">
             <p className="eyebrow">Registration</p>
-            <h2 className="section-title">Register for The Big Church Conference Swansea 2026</h2>
+            <h2 className="section-title">Register for The Big Church Conference South Wales 2026</h2>
           </div>
           <p className="section-lead max-w-3xl mx-auto">
-            Join us on Saturday 28th November 2026, 4pm-7pm at Waterfront Church, Langdon Road Swansea. SA1 8QY.
+            Join us on Saturday 28th November 2026, 4pm-7pm at Waterfront Church, Langdon Road South Wales. SA1 8QY.
             Complete the form below to register your attendance.
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function PhotozenRegistration() {
                 <div className="w-full flex justify-center">
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSe4IPfivT22wa9g4yahoE-rwr_mDNrdSVEzV8KbPp6wkzQj0A/viewform?embedded=true"
-                    title="Big Church Conference Swansea 2026 registration form"
+                    title="Big Church Conference South Wales 2026 registration form"
                     width="640"
                     height="1151"
                     className="w-full max-w-[640px] min-h-[1151px] border-0"

@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Calendar, MapPin, Clock } from 'lucide-react';
 
 const defaultConfig = {
-  title: "The Big Church Conference Swansea 2026",
+  title: "The Big Church Conference South Wales 2026",
   subtitle: "United in Mission: Different ways, one Purpose",
 };
 

@@ -43,7 +43,7 @@ export default function PhotozenInfo() {
         <div className="text-center stack-lg mb-12">
           <div className="stack">
             <p className="eyebrow">Conference</p>
-            <h2 className="section-title">The Big Church Conference Swansea 2026</h2>
+            <h2 className="section-title">The Big Church Conference South Wales 2026</h2>
           </div>
           <p className="section-lead max-w-3xl mx-auto">
             There&apos;s no big church and there&apos;s no small church. But there&apos;s a <strong>Big Church</strong> when we come together:
@@ -132,7 +132,7 @@ export default function PhotozenInfo() {
           </h3>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              The Big Church Conference Swansea is organised by <strong>Christ Community Global</strong> and <strong>The Big Church Conference Committee</strong>. Both Groups are cross-denominational, involving volunteers from up to 15 different churches in South Wales, with the goal of promoting cross-denominational activities to advance the course of the Gospel in the United Kingdom and the World at large.
+              The Big Church Conference South Wales is organised by <strong>Christ Community Global</strong> and <strong>The Big Church Conference Committee</strong>. Both Groups are cross-denominational, involving volunteers from up to 15 different churches in South Wales, with the goal of promoting cross-denominational activities to advance the course of the Gospel in the United Kingdom and the World at large.
             </p>
             <p>
               We believe in a united body of Christ, as the scripture says in Ephesians 4:4-5

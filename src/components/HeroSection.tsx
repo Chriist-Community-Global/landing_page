@@ -9,7 +9,7 @@ import type { IPageContent, IPageHero } from "../../types/contentful";
 // Default configuration - this will later come from Contentful
 const defaultHeroConfig: HeroConfig = {
   content: {
-    title: "A church serving Swansea and beyond",
+    title: "Serving Swansea and beyond",
     description: "Weekly worship, prayer, and practical outreach across the city. Join a community committed to discipleship and tangible care.",
     buttons: [
       { label: "Join missions", variant: "primary", href: "/contact" },
